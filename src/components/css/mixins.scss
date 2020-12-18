@@ -1,0 +1,27 @@
+
+@mixin tr {
+    transition: all .3s ease-in-out;
+}
+
+@mixin hover {
+    @include tr;
+    &:hover,
+    &:focus,
+    &:active {
+        @content;
+        @include tr;
+    }
+}
+
+@mixin pCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin media ($w) {
+    @media screen and (max-width: $w) {
+        @content;
+    }
+}

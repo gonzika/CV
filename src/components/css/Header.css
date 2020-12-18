@@ -1,0 +1,60 @@
+
+@media (prefers-reduced-motion: no-preference) {
+    .header__logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+    .header__logo--right {
+      animation: App-logo-left infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes App-logo-left {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: h;
+    position: relative;
+  }
+  
+  .header__logo {
+    width: 25px;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .header__logo--right {
+    left: auto;
+    right: 20px;
+  }
+
+  @media screen and (max-width: 465px) {
+    .header__logo {
+      width: 15px;
+      left: 10px;
+    }
+    .header__logo--right {
+      left: auto;
+      right: 10px;
+    }
+  }
+  

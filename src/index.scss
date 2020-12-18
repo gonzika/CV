@@ -1,0 +1,104 @@
+* {
+  transition: all .3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
+@media print {
+  body {
+    color: black;
+    background-color: #fff;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+
+h1, h2, h3, h4 {
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 465px) {
+  h1, h2, h3, h4 {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h2, h3, h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+h4 {
+  letter-spacing: 1px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin: 5px 0px 0;
+}
+
+li {
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.ul--square {
+  list-style-type: square;
+}
+
+.ul--nomarker {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 465px) {
+  ul, ol {
+    padding-left: 30px;
+    margin: 0;
+  }
+  .ul--nomarker {
+    padding-left: 0px;
+  }
+}
