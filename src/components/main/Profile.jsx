@@ -21,7 +21,7 @@ function Profile() {
                 <div className="profile__avatar-wrap"><img src={foto} alt="avatar" className="profile__avatar" /></div>
                 <section>
                     <h3 id="profile__name">Якименко Николай Николаевич</h3>
-                    <h4>Junior FrontEnd Developer (React)</h4>
+                    <h5>Junior FrontEnd Developer (React)</h5>
                     <ul className="ul--nomarker">
                         <li>Телефон: <a href="tel:+380972132191">+38-097-213-2191</a></li>
                         <li>GitHub: <a target="_blank" rel="noreferrer" href="https://github.com/gonzika">github.com/gonzika</a></li>
