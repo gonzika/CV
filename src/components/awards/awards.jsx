@@ -12,7 +12,7 @@ function Awards() {
     return (
         <div className="main">
             <div className='main__title'>
-                <h2>Мои награды</h2>
+                <h2>Достижения</h2>
             </div>
             <div className="main__profile main__profile--nopadding flex">
                 <a href={cs50} target="_blank" rel="noreferrer" className="awards__award">

@@ -57,7 +57,7 @@ function Profile() {
                 <section>
                     <h3>ОПЫТ</h3>
                     <ol>
-                        <li>SPA React резюме</li>
+                        <li>React CV</li>
                         <li>Браузерная онлайн игра на Django. Реализовано: регистрация, перемещение по игровому полю, распознавание других игроков, чат, урон по клетке, регенерация, респаун, автологаут при бездействии с записью в БД.</li>
                         <li>Переводчик субтитров  на Django. Реализовано: взаимодействие с Google Translate API, перевод субтитров с любого языка на любой язык.</li>
                         <li>Переводчик субтитров  на чистом JS. Реализовано: взаимодействие с Google Translate API, перевод субтитров с любого языка на любой язык.</li>
@@ -68,6 +68,7 @@ function Profile() {
                 <section>
                     <h3>ОБРАЗОВАНИЕ И КУРСЫ</h3>
                     <ul className="ul--square">
+                        <li>15.12.2020 - <em>сегодня</em>. Harvard «CS50's Mobile App Development with React Native»</li>
                         <li>27.11.2020 - <em>сегодня</em>. React. Путь самурая.</li>
                         <li>17.09.2020 - <em>сегодня</em>. Beetroot Academy «FrontEnd»</li>
                         <li>01.07.2020 - 30.11.2020. Harvard «CS50's Web Programming with Python and JavaScript»</li>

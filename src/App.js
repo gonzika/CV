@@ -1,12 +1,12 @@
 import { BrowserRouter, Redirect, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Navbar from './components/Navbar';
+import Navbar, { giveWay } from './components/Navbar';
 import Profile from './components/main/Profile';
 import Works from './components/works/works';
 import Awards from './components/awards/awards';
 import './App.css';
 
-const way = '/CV'
+const way = giveWay()
 
 function App(props) {
   return (
@@ -17,8 +17,8 @@ function App(props) {
         <main>
           <Redirect from={way + "/index"} to={way + "/"} />
           <Route path={way + "/"} exact component={Profile} />
-          <Route path={way + "/works"} component={Works} />
-          <Route path={way + "/awards"} component={Awards} />
+          <Route path={way + "/projects"} component={Works} />
+          <Route path={way + "/achievements"} component={Awards} />
         </main>
       </div>
     </BrowserRouter>
