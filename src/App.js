@@ -6,6 +6,8 @@ import Works from './components/works/works';
 import Awards from './components/awards/awards';
 import './App.css';
 
+const way = '/CV'
+
 function App(props) {
   return (
     <BrowserRouter>
@@ -13,10 +15,10 @@ function App(props) {
         <Header />
         <Navbar />
         <main>
-          <Redirect from="/index" to="/" />
-          <Route path="/" exact component={Profile} />
-          <Route path="/works" component={Works} />
-          <Route path="/awards" component={Awards} />
+          <Redirect from={way + "/index"} to={way + "/"} />
+          <Route path={way + "/"} exact component={Profile} />
+          <Route path={way + "/works"} component={Works} />
+          <Route path={way + "/awards"} component={Awards} />
         </main>
       </div>
     </BrowserRouter>
