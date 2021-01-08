@@ -7,6 +7,8 @@ import cs50sm from "./cs50-sm.jpg"
 import magistersm from "./magister-sm.jpg"
 import Image0014sm from "./Image0014-sm.jpg"
 import Image0015sm from "./Image0015-sm.jpg"
+import DuoPlsm from "./DuoPl-sm.jpg"
+import DuoPl from "./DuoPl.jpg"
 
 function Awards() {
     return (
@@ -15,6 +17,9 @@ function Awards() {
                 <h2>Достижения</h2>
             </div>
             <div className="main__profile main__profile--nopadding flex">
+                <a href={DuoPl} target="_blank" rel="noreferrer" className="awards__award">
+                    <img src={DuoPlsm} alt="avatar" className="awards__img" />
+                </a>
                 <a href={cs50} target="_blank" rel="noreferrer" className="awards__award">
                     <img src={cs50sm} alt="avatar" className="awards__img" />
                 </a>

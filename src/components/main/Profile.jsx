@@ -57,7 +57,7 @@ function Profile() {
                 <section>
                     <h3>ОПЫТ</h3>
                     <ol>
-                        <li>React CV</li>
+                        <li>React: CV, Tic Tak Toe.</li>
                         <li>Браузерная онлайн игра на Django. Реализовано: регистрация, перемещение по игровому полю, распознавание других игроков, чат, урон по клетке, регенерация, респаун, автологаут при бездействии с записью в БД.</li>
                         <li>Переводчик субтитров  на Django. Реализовано: взаимодействие с Google Translate API, перевод субтитров с любого языка на любой язык.</li>
                         <li>Переводчик субтитров  на чистом JS. Реализовано: взаимодействие с Google Translate API, перевод субтитров с любого языка на любой язык.</li>
@@ -71,9 +71,9 @@ function Profile() {
                         <li>15.12.2020 - <em>сегодня</em>. Harvard «CS50's Mobile App Development with React Native»</li>
                         <li>27.11.2020 - <em>сегодня</em>. React. Путь самурая.</li>
                         <li>17.09.2020 - <em>сегодня</em>. Beetroot Academy «FrontEnd»</li>
+                        <li>01.07.2019 - 31.12.2020. Duolingo. Polish/English language</li>
                         <li>01.07.2020 - 30.11.2020. Harvard «CS50's Web Programming with Python and JavaScript»</li>
                         <li>01.03.2020 - 22.05.2020. Harvard «CS50. Introduction to Computer Science»</li>
-                        <li>01.07.2019 - <em>сегодня</em>. Duolingo. Polish/English language</li>
                         <li>01.09.2011 - 21.06.2015. Приазовский государственный технический университет. Специальность:
                     учет и аудит. Научная степень: магистр</li>
                     </ul>

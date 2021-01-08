@@ -3,6 +3,7 @@ import cahee from './cahee.jpg';
 import roboclub from './roboclub.jpg';
 import translator from './translator.jpg';
 import resistance from './resistance.jpg';
+import Game from './TicTacToe/TicTacToe';
 
 function Works() {
     return (
@@ -11,7 +12,26 @@ function Works() {
                 <h2>Проекты</h2>
             </div>
             <div className="main__profile main__profile--nopadding flex works">
-                <div className="work work--full">
+
+                <div className="work">
+                    <div>
+                        <h3>Tic Tac Toe</h3>
+                        <ul>
+                            <li>React</li>
+                        </ul>
+                        <div>
+                            <p>
+                                Стандартный учебный проект от разработчиков Реакта.<br />
+                                Мои доработки: карта ходов, подсветка выделенного хода, плавное появление элементов.
+                            </p>
+                        </div>
+                        <div className='TicTacToe'>
+                            <Game />
+                        </div>
+                    </div>
+
+                </div>
+                <div className="work">
                     <div>
                         <h3>Resistance Python</h3>
                         <ul>
